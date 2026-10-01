@@ -1,0 +1,6 @@
+.page-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-lg);
+  padding-bottom: calc(var(--bottom-nav-height) + var(--spacing-lg));
+}

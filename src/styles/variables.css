@@ -1,0 +1,41 @@
+:root {
+  /* Pastel Blue Theme */
+  --color-primary: #8AB4F8;
+  --color-primary-light: #D2E3FC;
+  --color-primary-dark: #4285F4;
+  
+  --color-background: #F8F9FA;
+  --color-surface: #FFFFFF;
+  
+  --color-text-main: #202124;
+  --color-text-secondary: #5F6368;
+  --color-text-hint: #9AA0A6;
+  
+  --color-success: #81C995;
+  --color-warning: #FDE293;
+  --color-danger: #F28B82;
+
+  --color-border: #E8EAED;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.05);
+  
+  /* Layout */
+  --max-app-width: 480px;
+  --header-height: 72px;
+  --bottom-nav-height: 64px;
+}
