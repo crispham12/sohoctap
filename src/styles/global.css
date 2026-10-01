@@ -20,6 +20,7 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .app-container {
@@ -27,6 +28,7 @@ body {
   max-width: var(--max-app-width);
   background-color: var(--color-background);
   min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
   display: flex;
   flex-direction: column;

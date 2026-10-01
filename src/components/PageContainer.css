@@ -2,5 +2,5 @@
   flex: 1;
   overflow-y: auto;
   padding: var(--spacing-lg);
-  padding-bottom: calc(var(--bottom-nav-height) + var(--spacing-lg));
+  padding-bottom: calc(var(--bottom-nav-height) + var(--spacing-lg) + env(safe-area-inset-bottom));
 }

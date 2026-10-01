@@ -1,9 +1,10 @@
 .clubhouse-page {
   margin: calc(var(--spacing-lg) * -1);
   padding: var(--spacing-lg);
-  padding-bottom: 120px;
+  padding-bottom: calc(120px + env(safe-area-inset-bottom));
   background-color: #1D2951;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .ch-header {
